@@ -10,7 +10,7 @@ requires-python = ">=3.10"
 dependencies = [
     "fastapi[standard]>=0.131.0",
     "groq>=0.31.0",
-    "python-dotenv>=1.0.0",
+    "python-dotenv>=1.2.2",
     "sqlalchemy>=2.0.30",
     "fastapi-pagination>=0.14.2",
     "pgvector>=0.2.5",
@@ -43,7 +43,7 @@ dependencies = [
 ]
 [dependency-groups]
 dev = [
-    "pytest>=8.2.2",
+    "pytest>=9.0.3",
     "sqlalchemy-utils>=0.41.2",
     "pytest-asyncio>=0.23.7",
     "coverage>=7.6.0",
